@@ -1,0 +1,48 @@
+.custom-padding {
+	padding: 45px 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.area{
+    background-color: white;
+}
+.abc{
+	border: 2px black solid;
+}
+.saleName{
+	color: tomato;
+}
+.saleBrand{
+	background-color: orangered;
+	border:orange solid;
+	color: white;
+	height: 60px;
+	width: 250px;
+	text-align: center;
+}
+.image{
+	height: 400px;
+	margin-left: 20px;
+}
+.brandLogo{
+	height: 150px;
+	width: 250px;
+}
+@media only screen and (max-width: 767px) {
+	.area {
+		margin-bottom: 30px;
+	}
+	.area img {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.area {
+		margin-bottom: 30px;
+	}
+	.area img {
+		width: 100%;
+	}
+}
